@@ -1,4 +1,4 @@
-![embed]()
+![embed](https://github.com/embeds-py/embeds-py-github.io/blob/main/assets/image.png)
 
 # discord-embed-generator
 
