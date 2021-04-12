@@ -1,17 +1,62 @@
+
+.footer .aniket {
+    font-family: 'Montserrat' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    text-align: center;
+    line-height: 5px !important;
+    letter-spacing: 0.15em !important;
+    font-variant: small-caps !important;
+    margin-left: -70px;
+}
+
+.footer .aniket a {
+    color: #7f8385 !important;
+    text-decoration: none !important;
+}
+
+.footer .bot-footer {
+    text-align: center !important;
+    color: #a2a8bd !important
+}
+
 .nav-link {
   font-size: 17px !important;
   background: transparent !important;
-  color: #7f8385!important;
+  color: #7f8385 !important;
   font-weight: bold;
   font-family: Lato, sans-serif !important;
   text-transform: capitalize !important;
-}
+ }
  .nav-link:hover {
   background: transparent !important;
   color: #a0adb3 !important;
   font-weight: bold !important;
+ }
+
+ .login-btn {
+     border: 2px solid #AD91FF !important;
+     font-size: 10px !important;
+ }
+ .login-btn:hover {
+     background: #AD91FF !important;
+ }
+.navbar {
+    box-shadow: none !important
 }
 
+.navbar-brand {
+    font-size: 25px !important
+}
+
+.navbar-toggler-icon {
+    color: #fff !important
+}
+
+.navbar-toggler-icon {
+    color: #fff !important
+}
 
 /* Scroll Bar */
 ::-webkit-scrollbar {
