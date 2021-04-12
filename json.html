@@ -2,8 +2,10 @@
 <html >
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Discord Embed Generator</title>
   <link data-n-head='ssr' rel='icon' type='image/x-icon' href='assets/logo.ico'>
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
@@ -12,14 +14,14 @@
 
   <link rel="stylesheet" href="css/style.css">
   <link type='text/css' rel='stylesheet' href='css/utilities.css'>
+  
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
 
-  
 </head>
 
-<body>
 
+<body>
 <nav class="navbar navbar-expand-lg bg-transparent">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <img src="assets/menuIcon.svg" width="20px" height="20px" style="max-width: none !important;">
@@ -28,7 +30,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 20px !important">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#/"><i class="fas fa-home"></i> &nbsp; &nbsp; Home<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="./index.html"><i class="fas fa-home"></i> &nbsp; &nbsp; Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://discord.com/invite/GaczkwfgV9">Support</a>
@@ -39,15 +41,16 @@
                   Generators
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="./json.html">JSON Generator</a>
+                <a class="dropdown-item" href="./index.html">Python Generator</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="./js.html">JS Generator</a>
+                
             </div>
         </div>
 
     </div>
-</nav> 
-   
+</nav>
+
 <div class="container">
   <div class="col-md-10 offset-md-1">
     <div class="card-deck">
@@ -57,14 +60,15 @@
 
           <form id="form">
             <div class="form-group">
+              <label>Message</label>
+              <input class="form-control" id="text" type="text" placeholder="Content"/>
+            </div>
+            <div class="form-group">
               <label>Embed</label>
               <input class="form-control" id="title" type="text" placeholder="Title"/>
             </div>
             <div class="form-group">
               <input class="form-control" id="description" type="text" placeholder="Description"/>
-            </div>
-            <div class="form-group">
-              <input class="form-control" id="url" type="text" placeholder="Url"/>
             </div>
             <div class="form-group">
               <label>Color</label>
@@ -90,16 +94,13 @@
             </div>
 
             <div class="form-group">
-              <label>Fields</label>
-            </div>
-            <div class="input-fields"></div>
-            <div class="form-group">
               <label>Footer</label>
-              <input class="form-control" id="footer" type="text" placeholder="Footer Text"/>
+              <input class="form-control" id="footer_text" type="text" placeholder="Footer Text"/>
             </div>
             <div class="form-group">
               <input class="form-control" id="footer_icon" type="text" placeholder="Footer Icon"/>
             </div>
+
           </form>
         </div>
       </div>
@@ -107,7 +108,7 @@
   </div><br/>
   <div class="col-md-10 offset-md-1">         
     <div class="card">
-      <div class="card-header">Preview</div>
+      <div class="card-header">Embed Preview</div>
       <div class="card-block preview">
         <div class="wrapper">
           <div class="side-colored"></div>
@@ -122,7 +123,7 @@
   </div><br/>
   <div class="col-md-10 offset-md-1">
     <div class="card">
-      <div class="card-header">Python code</div>
+      <div class="card-header">Json code</div>
       <div class="card-block">
         <pre><code class="python source"></code></pre>
       </div>
@@ -135,7 +136,7 @@
   <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js'></script>
 
-    <script src="js/index.js"></script>
+    <script src="js/json.js"></script>
 
 </body>
 </html>

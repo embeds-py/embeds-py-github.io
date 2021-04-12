@@ -1,3 +1,17 @@
+.nav-link {
+  font-size: 17px !important;
+  background: transparent !important;
+  color: #7f8385!important;
+  font-weight: bold;
+  font-family: Lato, sans-serif !important;
+  text-transform: capitalize !important;
+}
+ .nav-link:hover {
+  background: transparent !important;
+  color: #a0adb3 !important;
+  font-weight: bold !important;
+}
+
 
 /* Scroll Bar */
 ::-webkit-scrollbar {
