@@ -4,7 +4,11 @@
 
 > Web-based sandbox for Discord Embeds with code generation
 
-[Click here to open](https://embeds-py.github.io/embeds-py-github.io/)
+[V!BE Invite Link](https://discord.com/oauth2/authorize?client_id=802509186059337778&permissions=3501121&scope=bot)
+
+[Bot Invite Link](https://discord.com/oauth2/authorize?client_id=804328187714207794&permissions=3501121&scope=bot)
+
+[Website link](https://embedbuilder.cf/)
 
 This tool can help you get a grip on Discord Embeds (a topic some people are struggling with), it provides a simple ui to construct a message you want, as well as a realtime preview.
 
